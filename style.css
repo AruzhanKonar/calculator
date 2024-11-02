@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+.calculator {
+background-color: rgb(56, 56, 56);
+border-radius: 10px;
+width: 100%;
+max-width: 250px;
+max-height: 750px;
+text-align: center;
+}
+
+.display {
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px; 
+}
+
+input {
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    height: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+button {
+    flex: 1;
+    border: none;
+    border-radius: 60px;
+    background-color: #8b8989;
+    color: white;
+    font-size: 24px;
+    margin-left: 5px;
+    padding: 10px 17px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: rgb(217, 186, 199);
+}
+
+button:nth-child(17) {
+    padding: 10px 52px;
+}
+
+
+button:nth-child(4) {
+    background-color: palevioletred;
+    color: white;
+}
+
+button:nth-child(4):hover {
+    background-color: rgb(237, 156, 183);
+    color: white;
+}
+
+button:nth-child(8):hover {
+    background-color: rgb(237, 156, 183);
+    color: white;
+}
+
+button:nth-child(12):hover {
+    background-color: rgb(237, 156, 183);
+    color: white;
+}
+
+button:nth-child(16):hover {
+    background-color: rgb(237, 156, 183);
+    color: white;
+}
+
+button:nth-child(19):hover {
+    background-color: rgb(237, 156, 183);
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(144, 144, 144);
+}
+
+button:nth-child(2):hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(144, 144, 144);
+}
+
+button:nth-child(3):hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(144, 144, 144);
+}
+
+button:nth-child(8) {
+    background-color: palevioletred;
+    color: white;
+}
+
+button:nth-child(12) {
+    background-color: palevioletred;
+    color: white;
+}
+
+button:nth-child(16) {
+    background-color: palevioletred;
+    color: white;
+}
+
+button:nth-child(19) {
+    background-color: palevioletred;
+    color: white;
+}
+
+button:nth-child(1) {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+button:nth-child(2) {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+button:nth-child(3) {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+h1 {
+    margin-right: 40px;
+    font-family: 'Playwrite';
+    font-weight: 300;
+    color: rgb(111, 40, 64);
+}
+
